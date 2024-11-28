@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
+}
+
+header {
+    background-color: #6A0DAD; /* Roxo predominante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    background-color: #1C1C1C; /* Um tom mais escuro de preto para o formulário */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input, select {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #00D4B3; /* Verde água */
+    color: #000000; /* Texto preto */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6A0DAD; /* Troca para roxo ao passar o mouse */
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #FFFFFF; /* Bordas brancas */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+th {
+    background-color: #6A0DAD; /* Cabeçalho roxo */
+}
+
+td {
+    background-color: #2E2E2E; /* Linhas em cinza escuro */
+}
+
+button.excluir {
+    background-color: #D44444; /* Cor vermelha para o botão excluir */
+    color: white;
+}
+
+button.excluir:hover {
+    background-color: #FF0000; /* Vermelho mais vivo ao passar o mouse */
+}
+/* CSS existente */
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px; /* Define a largura máxima */
+    height: auto; /* Mantém a proporção da imagem */
+    padding-bottom: 10px; /* Espaçamento entre a logo e o título */
+}
+
+
+/* Estilos existentes */
+
+/* Logo */
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px; /* Ajusta a largura */
+    height: auto;
+    padding-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222; /* Cor de fundo escura */
+    color: white; /* Texto branco */
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer a {
+    color: #6A0DAD; /* Cor da marca, laranja */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Restante do CSS */
+
